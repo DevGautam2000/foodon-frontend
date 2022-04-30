@@ -1,0 +1,8 @@
+{
+  "short_name": "FoodOn",
+  "name": "shop at your hands",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

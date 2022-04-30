@@ -1,0 +1,103 @@
+.checkout {
+  margin-top: 135px;
+  height: 88vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(235, 247, 214);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+  width: fit-content;
+}
+.foreground {
+  border-radius: 20px;
+  background: linear-gradient(50deg, #0589f5, #d23f57);
+  color: white;
+  box-shadow: 0 0 20px #3333;
+  height: 405px;
+  width: 305px;
+  margin: 10px;
+  padding: 0 1rem;
+  font-weight: bold;
+}
+.visa {
+  border-radius: 20px;
+  width: 15%;
+  color: white;
+  flex: 0.5;
+}
+
+.date {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  /* text-shadow: 1px 1px 2px black; */
+}
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* text-shadow: 1px 1px 2px black; */
+}
+.clipboard {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.clipboard:hover {
+  color: black;
+}
+.clipboard:active {
+  transform: scale(0.98);
+}
+
+.name {
+  /* text-shadow: 1px 1px 2px black; */
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cvc i {
+  color: black;
+  background: white;
+  height: 28px;
+  padding: 4px 8px;
+  flex: 0.7;
+}
+
+.stripe {
+  background-color: rgb(43, 42, 42);
+  width: 72%;
+  height: 30px;
+  display: inline-block;
+}
+
+.background {
+  border-radius: 20px;
+  box-shadow: 0 0 20px #3333;
+  background: linear-gradient(50deg, #d23f57, #0589f5);
+  color: white;
+  margin: 10px;
+  padding: 0 1rem;
+  padding-top: 30px;
+  height: 405px;
+  width: 305px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card span small {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 3px;
+}
